@@ -8,7 +8,8 @@ var myChart = echarts.init(document.getElementById('echarts-one'));
 		        	fontSize: 10,
 		        	width: 20,
 		        	height:20,
-		        }
+		        },
+		        position: ['30%', '10%']
 		    },
 		    legend: {
 		        orient: 'horizontal',
@@ -53,7 +54,8 @@ var myChart = echarts.init(document.getElementById('echarts-one'));
 		        	fontSize: 10,
 		        	width: 20,
 		        	height:20,
-		        }
+		        },
+		        position: ['30%', '10%']
 		    },
 		    legend: {
 		        orient: 'horizontal',
