@@ -1,6 +1,7 @@
 
 a{
 	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
 }
 li{
 	list-style: none;
@@ -16,6 +17,9 @@ html{
 }
 .easyui-tabs .tabs-selected .tabs-inner{
 	background: #eaeaea!important;
+}
+.tabs-header{
+	padding-top: 0px!important;
 }
 .project{
 	border-bottom: 1px solid #eaeaea;	
@@ -143,7 +147,7 @@ html{
 
 }
 .baidu-ser input{
-	height: 32px;
+	height: 30px;
 	position: relative;
 	left: 0px;
 	top: -11px;
