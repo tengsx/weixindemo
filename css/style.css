@@ -1,0 +1,229 @@
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+html{
+	max-width: 900px;
+	margin: 0 auto!important;
+}
+/*index.html*/
+/*百项重点*/
+.easyui-tabs .tabs-title{
+	font-size: 14px;
+}
+.easyui-tabs .tabs-selected .tabs-inner{
+	background: #eaeaea!important;
+}
+.project{
+	border-bottom: 1px solid #eaeaea;	
+}
+.project{
+	height: 40px;
+	font-size: 16px;
+	position: relative;
+}
+.project .bg-img{
+	float: left;
+	width: 22px;
+	height: 20px;
+	margin-top: 2px;
+}
+.project .more{
+	position: absolute;
+	right: 5px;
+	top: 7px;
+	font-size: 12px;
+	color: #aaa;
+}
+.project-pro{
+	height: 100px;
+}
+.project-pro p{
+	color: #0061a2;
+	float: right;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.project-pro img{
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: -5px;
+}
+.project-start{
+	width: 50%;
+	height: 250px;
+	border-bottom: 0;
+	border-right: 1px solid #eaeaea;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.project-over{
+	width: 50%;
+	height: 250px;
+	border-bottom: 0;
+	float: right;
+}
+.project-dis{
+	height: 100px;
+	width: 100%;
+	background: #eaeaea;
+}
+.project-dis a img{
+	width: 100%;
+	height: 80%;
+	margin-top: 10px;
+}
+.report{
+	float: left;
+	width: 45%;
+	height: 70px;
+	border: 1px solid #eee;
+	margin-top: 2.5%;
+	margin-left: 3.3%;
+	background: #00558e;
+	position: relative;
+	border-radius: 4px;
+}
+.report img{
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 5px;
+	display: inline-block;
+}
+.report p{
+	width: 70%;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+/*全市投资*/
+.invest ul{
+	width: 100%;
+	padding: 0;
+}
+.invest ul li{
+	float: left;
+	width: 30%;
+	height: 70px;
+	margin-left: 2.2%;
+	border: 1px solid #888;
+	background: #eaeaea;
+	font-size: 14px;
+	color: #000;
+}
+.invest ul li a{
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+}
+/*项目详情*/
+.baidu-ser{
+	width: 60%;
+	height: 35px;
+	position: absolute;
+	top: 50px;
+	left: 6%;
+	border: 1px solid #aaa;
+	border-radius: 6px;
+	background: #fff;
+}
+.baidu-ser img{
+	width: 30px;
+	height: 30px;
+	margin-top: 3px;
+
+}
+.baidu-ser input{
+	height: 32px;
+	position: relative;
+	left: 0px;
+	top: -11px;
+	border: 0;
+	margin-bottom: 0;
+	line-height: 35px;
+	width: 84%;
+}
+.pro-tab{
+	width: 100%;
+	height: 50px;
+	background: #eaeaea;
+	border-bottom: 1px solid #aaa;
+}
+.pro-tab ul{
+	margin: 0;
+	padding: 0;
+}
+.pro-tab li{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 100%;line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+}
+.pro-tip{
+	width: 90%;
+	height: 100px;
+	border-bottom: 1px solid #eaeaea;
+	font-size: 14px;
+	margin-left: 5%;
+	overflow: hidden; 
+}
+.pro-tip a:nth-of-type(1){
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	color: #4d86ca;
+}
+.pro-tip a:nth-of-type(2){
+	height: 40px; 
+	width: 100%;
+	overflow: hidden;
+ 	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+}
+.select-tab{
+	background: #fff;
+}
+
+
+.container{
+	width: 100%;
+	height: auto;
+}
+table{
+	width: 100%;
+	font-size: 11px;
+	text-align: center;
+}
+td{
+	height: 30px;
+	width: 13.5%;
+	font-size: 10px;
+}
+h1{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 18px;
+}
+th{
+	font-size: 10px;
+	height: 30px;
+}
+h5{
+	margin:5px;
+}
+tr td:nth-of-type(1){
+	width: 20%;
+}

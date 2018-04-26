@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>市重点项目</title>
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.5.3/themes/metro/easyui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.5.3/themes/mobile.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.5.3/themes/icon.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="jquery-easyui-1.5.3/jquery.min.js"></script>
+	<script src="jquery-easyui-1.5.3/jquery.easyui.min.js"></script>
+	<script src="jquery-easyui-1.5.3/jquery.easyui.mobile.js"></script> 
+	<script src="js/echarts.min.js"></script>
+	<script src="js/index.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=YhpDkDY18AhmUAcT9UKdiDQ7ojZKCSF0"></script>
+</head>
+<body>
+	<div class="easyui-tabs" data-options="fit:true,border:false,pill:true,justified:true,tabWidth:50,tabHeight:35">
+		<!-- 百项重点 -->
+		<div title="百项重点" style="padding: 5px;">
+			<div class="project project-plan">	
+				<p class=""><img class="bg-img" src="img/u1_01.gif">项目时序进度</p>
+				<a class="more" href="">更多>></a>
+			</div>
+			<div class="project project-pro">
+				<p>年初至本月累计完成9931亿元，82.76%</p>
+				<div id="p" class="easyui-progressbar" data-options="value:82.76" style="width:80%; color: #000;height: 30px;border-radius: 14px; margin-left: 8%;"></div>
+			</div>
+			<div class="project project-start">
+				<p><img class="bg-img" src="img/u1_03.gif">新开工项目</p>
+				<a class="more" style="top: 20px;" href="">更多>></a>
+				<div id="echarts-one" style="width: 100%; height: 200px;"></div>
+			</div>
+			<div class="project project-over">
+				<p><img class="bg-img" src="img/u1_04.gif">完工项目</p>
+				<a class="more " style="top: 20px;" href="">更多>></a>
+				<div id="echarts-two" style="width: 100%; height: 200px;"></div>
+			</div>
+			<div class="project-dis">
+				<a href="">
+					<img  src="img/u1_05.png">
+				</a>
+			</div>
+			<div class="project">
+				<p><img class="bg-img" src="img/u1_06.gif">新开工项目</p>
+			</div>
+			<div style="width: 100%; height: 250px;">
+				<a href=""><div class="report">
+					<img src="img/u1_07.gif" alt="">
+					<p>交通三年会战</p>
+				</div></a>
+				<a href=""><div style="background: #cdd4dc;" class="report">
+					<img src="img/u1_08.gif" alt="">
+					<p style="color: #00558e;">内畅外联三年计划</p>
+				</div></a>
+				<a href=""><div style="background: #cdd4dc;" class="report">
+					<img src="img/u1_09.gif" alt="">
+					<p style="color: #00558e;">扶贫攻坚三年任务</p>
+				</div></a>
+				<a href=""><div class="report">
+					<img src="img/u1_10.png" alt="">
+					<p>社会民生</p>
+				</div></a>
+			</div>
+		</div>
+		<!-- 全市投资 -->
+		<div title="总项目库" class="invest">
+			<ul>
+				<li><a href="pro2018.html">2018年-2020年规划项目库</a></li>
+				<li><a href="pro2018.html">2018年亿元以上（续建、新建）项目库</a></li>
+				<li><a href="pro2018.html">规划储备项目库</a></li>
+			</ul>
+		</div>
+		<!-- 项目详情 -->
+		<div title="项目详情">
+			<div id="baidumap" style="width: 100%;height: 300px;margin-left: 0;">	
+			</div>
+			<div class="baidu-ser">
+				<img src="img/u1_11.png" alt="">
+       			 <input type="text" id= "suggestId" size="20" 
+               		placeholder="请输入地址检索"/>
+       		 	<a href="javascript:void(0);" onclick="document.getElementById('suggestId').value=''"></a>
+  			  </div>
+  			  <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:100%;height:auto; display:none; text-align: left;"></div>
+			<div class="pro-tab">
+					<ul>
+						<li class="select-tab">新开工项目</li>
+						<li>在建项目</li>
+					</ul>
+				</div>
+				<div style="width: 100%; height: auto;" id="tab-new">
+					<div class="pro-tip">
+						<a>三环高速长寿至合川段</a>
+						<a><strong>地理位置：</strong>起于重庆三环高束公路铜梁至合川段终点沙溪枢纽互通，经合川草街、北碚静观、三圣、渝北统景、石船、龙兴等多个乡镇，止于渝长高速公路箭沱湾立交，与南川至两江新区高速公路相接，全线 设有互通式立交12处。</a>
+					</div>
+					<div class="pro-tip">
+						<a>三环高速长寿至合川段</a>
+						<a><strong>地理位置：</strong>起于重庆三环高束公路铜梁至合川段终点沙溪枢纽互通，经合川草街、北碚静观、三圣、渝北统景、石船、龙兴等多个乡镇，止于渝长高速公路箭沱湾立交，与南川至两江新区高速公路相接，全线 设有互通式立交12处。</a>
+					</div>
+				</div>
+				<div style="width: 100%; height: auto; display: none;" id="tab-now">
+					<div class="pro-tip">
+						<a>高速长寿至合川段</a>
+						<a><strong>地理位置：</strong>起于重庆三环高束公路铜梁至合川段终点沙溪枢纽互通，经合川草街、北碚静观、三圣、渝北统景、石船、龙兴等多个乡镇，止于渝长高速公路箭沱湾立交，与南川至两江新区高速公路相接，全线 设有互通式立交12处。</a>
+					</div>
+					<div class="pro-tip">
+						<a>高速长寿至合川段</a>
+						<a><strong>地理位置：</strong>起于重庆三环高束公路铜梁至合川段终点沙溪枢纽互通，经合川草街、北碚静观、三圣、渝北统景、石船、龙兴等多个乡镇，止于渝长高速公路箭沱湾立交，与南川至两江新区高速公路相接，全线 设有互通式立交12处。</a>
+					</div>
+				</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/config.js">	 
+	</script>
+</body>
+</html>
