@@ -148,13 +148,13 @@ html{
 }
 .baidu-ser input{
 	height: 30px;
-	position: relative;
-	left: 0px;
-	top: -11px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 1px;
 	border: 0;
 	margin-bottom: 0;
 	line-height: 35px;
-	width: 84%;
+	width: 80%;
 }
 .pro-tab{
 	width: 100%;
