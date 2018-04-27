@@ -1,3 +1,4 @@
+/*pro2018.html*/
 a{
 	text-decoration: none;
 	-webkit-tap-highlight-color:rgba(255,255,255,0);
@@ -59,4 +60,111 @@ h5{
 }
 tr td:nth-of-type(1){
 	width: 20%;
+}
+
+/*newpro.html*/
+
+.newpro-img{
+	height: 200px;
+}
+
+.newpro-img img{
+	width: 100%;
+	height: 200px;
+}
+.ntop-title{
+	width: 100%;
+	height: 30px;
+	background: #eaeaea;
+}
+.ntop-title p{
+	font-size: 12px;
+	float: left;
+	color: #888;
+}
+.ntitle{
+	width: 95%;
+	height: 70px;
+}
+.ntitle p{
+	height: 100%;
+	font-size: 17px;
+	line-height: 70px!important;
+}
+.npro{
+	font-weight: 400;
+	width: 95%;
+	margin-left: 2.5%;
+	border-bottom: 1px solid #eaeaea;
+}
+.nproject{
+	height: 150px;
+}
+.nproject p{
+	font-size: 15px;
+}
+.nproject p:nth-of-type(1){
+	margin-left: 30px;
+}
+.nproject p span{
+	color: #4d86ca;
+}
+.new-p{
+	cursor: pointer;
+	color: #4d86ca;
+	margin-left: 120px;
+}
+
+.ptop-title{
+	width: 100%;
+	height: 30px;
+}
+.ptop-title p{
+	font-size: 12px;
+	float: left;
+	color: #888;
+}
+.ptitle{
+	height: 40px;
+}
+
+.ptitle p{
+	font-size: 17px;
+	font-weight: 400;
+	float: left;
+	width: 50%;
+}
+.pro-list{
+	height: 70px;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+.pro-list h2{
+	display: inline-block;
+	width: 10px;
+	margin-left: 3%;
+}
+.pro-list p{
+	display: inline-block;
+	width: 30%;
+	color: #4d86ca;
+}
+.pro-list .progressbar{
+	top: 5px;
+	display: inline-block;
+	width: 60%;
+}
+
+/*dispacth*/
+.dis-title p{
+	height: 50px;
+	line-height: 50px!important;
+	font-size: 18px;
+	font-weight: 700;
+}
+.dis-foot .dis-p{
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px!important;
+	cursor: pointer;
 }

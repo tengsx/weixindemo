@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>调度事项总览</title>
+	<link rel="stylesheet" href="css/pro.css">
+	<script src="js/echarts.min.js"></script>
+</head>
+<body style="margin: 0;">
+	<div class="newpro-img">
+		<img src="img/u1-12.png" alt="">
+	</div>
+	<div class="ntop-title">
+		<p>更新时间：2018-4-22</p>
+		<p>呼和浩特市发展和改革委员会</p>
+	</div>
+	<div class="dis-title">
+		<p>2017年1-9月督办任务13项</p>
+		<div id="echarts" style="width: 100%;
+		height: 300px;">
+		</div>
+		<div class="dis-foot">
+			<p>本月提请重大项目调度会调度5项</p>
+			<p class="new-p dis-p">三环高速公路长寿至合川段</p>
+			<p class="new-p dis-p">新田港铁路集疏运中心项目</p>
+			<p class="new-p dis-p">三环高速公路长寿至合川段</p>
+			<p class="new-p dis-p">新田港铁路集疏运中心项目</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var myChart = echarts.init(document.getElementById('echarts'));
+		option = {
+    tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b}: {c}项 ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        x: 'left',
+    },
+    series: [
+        {
+            name:'督办任务',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: true,
+                    position: 'inner',
+                    formatter:'{c}个'
+                },
+                emphasis: {
+                    show: true,
+                    textStyle: {
+                        fontSize: '20',
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+            data:[
+                {value:3, name:'相对滞后'},
+                {value:6, name:'已完成'},
+                {value:4, name:'取得重大进展'}
+            ]
+        }
+    ]
+};
+	myChart.setOption(option);
+	</script>
+</body>
+</html>

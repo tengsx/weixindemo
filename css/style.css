@@ -144,13 +144,14 @@ html{
 	width: 30px;
 	height: 30px;
 	margin-top: 3px;
+	margin-left: 2px;
 
 }
 .baidu-ser input{
 	height: 30px;
 	float: right;
-	margin-top: 2px;
-	margin-right: 1px;
+	margin-top: 1px;
+	margin-right: 2px;
 	border: 0;
 	margin-bottom: 0;
 	line-height: 35px;
